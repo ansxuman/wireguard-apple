@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class LogViewCell: NSTableCellView {
+public class LogViewCell: NSTableCellView {
     var text: String = "" {
         didSet { textField?.stringValue = text }
     }
@@ -33,7 +33,7 @@ class LogViewCell: NSTableCellView {
     }
 }
 
-class LogViewTimestampCell: LogViewCell {
+public class LogViewTimestampCell: LogViewCell {
     override init() {
         super.init()
         if let textField = textField {
@@ -49,7 +49,7 @@ class LogViewTimestampCell: LogViewCell {
     }
 }
 
-class LogViewMessageCell: LogViewCell {
+public class LogViewMessageCell: LogViewCell {
     override init() {
         super.init()
         if let textField = textField {

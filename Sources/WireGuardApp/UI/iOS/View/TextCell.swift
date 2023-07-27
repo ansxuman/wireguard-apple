@@ -3,7 +3,7 @@
 
 import UIKit
 
-class TextCell: UITableViewCell {
+public class TextCell: UITableViewCell {
     var message: String {
         get { return textLabel?.text ?? "" }
         set(value) { textLabel!.text = value }

@@ -8,7 +8,7 @@ protocol TunnelEditViewControllerDelegate: AnyObject {
     func tunnelEditingCancelled()
 }
 
-class TunnelEditViewController: NSViewController {
+public class TunnelEditViewController: NSViewController {
 
     let nameRow: EditableKeyValueRow = {
         let nameRow = EditableKeyValueRow()

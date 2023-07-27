@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class StatusItemController {
+public class StatusItemController {
     var currentTunnel: TunnelContainer? {
         didSet {
             updateStatusItemImage()

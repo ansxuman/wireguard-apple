@@ -5,7 +5,7 @@ import UIKit
 import os.log
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+public class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var mainVC: MainViewController?

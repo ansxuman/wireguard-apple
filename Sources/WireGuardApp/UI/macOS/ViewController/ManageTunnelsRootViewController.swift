@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class ManageTunnelsRootViewController: NSViewController {
+public class ManageTunnelsRootViewController: NSViewController {
 
     let tunnelsManager: TunnelsManager
     var tunnelsListVC: TunnelsListTableViewController?

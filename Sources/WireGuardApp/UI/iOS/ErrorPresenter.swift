@@ -4,7 +4,7 @@
 import UIKit
 import os.log
 
-class ErrorPresenter: ErrorPresenterProtocol {
+public class ErrorPresenter: ErrorPresenterProtocol {
     static func showErrorAlert(title: String, message: String, from sourceVC: AnyObject?, onPresented: (() -> Void)?, onDismissal: (() -> Void)?) {
         guard let sourceVC = sourceVC as? UIViewController else { return }
 

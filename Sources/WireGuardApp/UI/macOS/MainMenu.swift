@@ -5,7 +5,7 @@ import Cocoa
 
 // swiftlint:disable colon
 
-class MainMenu: NSMenu {
+public class MainMenu: NSMenu {
     init() {
         super.init(title: "")
         addSubmenu(createApplicationMenu())

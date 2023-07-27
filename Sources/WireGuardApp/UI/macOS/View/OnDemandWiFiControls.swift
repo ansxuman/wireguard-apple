@@ -4,7 +4,7 @@
 import Cocoa
 import CoreWLAN
 
-class OnDemandControlsRow: NSView {
+public class OnDemandControlsRow: NSView {
     let keyLabel: NSTextField = {
         let keyLabel = NSTextField()
         keyLabel.stringValue = tr("macFieldOnDemand")

@@ -9,7 +9,7 @@ protocol SSIDOptionEditTableViewControllerDelegate: AnyObject {
     func ssidOptionSaved(option: ActivateOnDemandViewModel.OnDemandSSIDOption, ssids: [String])
 }
 
-class SSIDOptionEditTableViewController: UITableViewController {
+public class SSIDOptionEditTableViewController: UITableViewController {
     private enum Section {
         case ssidOption
         case selectedSSIDs

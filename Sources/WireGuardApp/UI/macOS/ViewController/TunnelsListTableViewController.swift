@@ -8,7 +8,7 @@ protocol TunnelsListTableViewControllerDelegate: AnyObject {
     func tunnelsListEmpty()
 }
 
-class TunnelsListTableViewController: NSViewController {
+public class TunnelsListTableViewController: NSViewController {
 
     let tunnelsManager: TunnelsManager
     weak var delegate: TunnelsListTableViewControllerDelegate?
@@ -342,7 +342,7 @@ extension TunnelsListTableViewController: NSMenuItemValidation {
     }
 }
 
-class FillerButton: NSButton {
+public class FillerButton: NSButton {
     override var intrinsicContentSize: NSSize {
         return NSSize(width: NSView.noIntrinsicMetric, height: NSView.noIntrinsicMetric)
     }

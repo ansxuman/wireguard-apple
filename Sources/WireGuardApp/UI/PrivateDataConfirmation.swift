@@ -7,7 +7,7 @@ import LocalAuthentication
 import AppKit
 #endif
 
-class PrivateDataConfirmation {
+public class PrivateDataConfirmation {
     static func confirmAccess(to reason: String, _ after: @escaping () -> Void) {
         let context = LAContext()
 

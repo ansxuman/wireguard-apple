@@ -5,7 +5,7 @@ import Cocoa
 import ServiceManagement
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+public class AppDelegate: NSObject, NSApplicationDelegate {
 
     var tunnelsManager: TunnelsManager?
     var tunnelsTracker: TunnelsTracker?

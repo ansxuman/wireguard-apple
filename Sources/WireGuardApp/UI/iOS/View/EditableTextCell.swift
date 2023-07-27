@@ -3,7 +3,7 @@
 
 import UIKit
 
-class EditableTextCell: UITableViewCell {
+public class EditableTextCell: UITableViewCell {
     var message: String {
         get { return valueTextField.text ?? "" }
         set(value) { valueTextField.text = value }

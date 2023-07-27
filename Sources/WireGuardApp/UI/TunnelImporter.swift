@@ -3,7 +3,7 @@
 
 import Foundation
 
-class TunnelImporter {
+public class TunnelImporter {
     static func importFromFile(urls: [URL], into tunnelsManager: TunnelsManager, sourceVC: AnyObject?, errorPresenterType: ErrorPresenterProtocol.Type, completionHandler: (() -> Void)? = nil) {
         guard !urls.isEmpty else {
             completionHandler?()

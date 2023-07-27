@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class ConfTextView: NSTextView {
+public class ConfTextView: NSTextView {
 
     private let confTextStorage = ConfTextStorage()
 

@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class EditableKeyValueRow: NSView {
+public class EditableKeyValueRow: NSView {
     let keyLabel: NSTextField = {
         let keyLabel = NSTextField()
         keyLabel.isEditable = false
@@ -116,7 +116,7 @@ class EditableKeyValueRow: NSView {
     }
 }
 
-class KeyValueRow: EditableKeyValueRow {
+public class KeyValueRow: EditableKeyValueRow {
     init() {
         super.init(hasValueImage: false)
         valueLabel.isEditable = false
@@ -129,7 +129,7 @@ class KeyValueRow: EditableKeyValueRow {
     }
 }
 
-class KeyValueImageRow: EditableKeyValueRow {
+public class KeyValueImageRow: EditableKeyValueRow {
     init() {
         super.init(hasValueImage: true)
         valueLabel.isEditable = false

@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class ButtonedDetailViewController: NSViewController {
+public class ButtonedDetailViewController: NSViewController {
 
     var onButtonClicked: (() -> Void)?
 

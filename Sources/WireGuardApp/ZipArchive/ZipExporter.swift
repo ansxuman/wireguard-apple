@@ -11,7 +11,7 @@ enum ZipExporterError: WireGuardAppError {
     }
 }
 
-class ZipExporter {
+public class ZipExporter {
     static func exportConfigFiles(tunnelConfigurations: [TunnelConfiguration], to url: URL, completion: @escaping (WireGuardAppError?) -> Void) {
 
         guard !tunnelConfigurations.isEmpty else {

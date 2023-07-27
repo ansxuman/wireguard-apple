@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class TunnelListRow: NSView {
+public class TunnelListRow: NSView {
     var tunnel: TunnelContainer? {
         didSet(value) {
             // Bind to the tunnel's name

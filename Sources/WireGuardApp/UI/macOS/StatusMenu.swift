@@ -7,7 +7,7 @@ protocol StatusMenuWindowDelegate: AnyObject {
     func showManageTunnelsWindow(completion: ((NSWindow?) -> Void)?)
 }
 
-class StatusMenu: NSMenu {
+public class StatusMenu: NSMenu {
 
     let tunnelsManager: TunnelsManager
 
@@ -295,7 +295,7 @@ extension StatusMenu {
     }
 }
 
-class TunnelMenuItem: NSMenuItem {
+public class TunnelMenuItem: NSMenuItem {
 
     var tunnel: TunnelContainer
 

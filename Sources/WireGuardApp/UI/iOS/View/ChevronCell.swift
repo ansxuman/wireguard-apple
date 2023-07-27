@@ -3,7 +3,7 @@
 
 import UIKit
 
-class ChevronCell: UITableViewCell {
+public class ChevronCell: UITableViewCell {
     var message: String {
         get { return textLabel?.text ?? "" }
         set(value) { textLabel?.text = value }

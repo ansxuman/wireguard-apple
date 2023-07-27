@@ -3,7 +3,7 @@
 
 import UIKit
 
-class QuickActionItem: UIApplicationShortcutItem {
+public class QuickActionItem: UIApplicationShortcutItem {
     static let type = "WireGuardTunnelActivateAndShow"
 
     init(tunnelName: String) {

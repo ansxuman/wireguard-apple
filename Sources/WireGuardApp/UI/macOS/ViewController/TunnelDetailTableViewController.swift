@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class TunnelDetailTableViewController: NSViewController {
+public class TunnelDetailTableViewController: NSViewController {
 
     private enum TableViewModelRow {
         case interfaceFieldRow(TunnelViewModel.InterfaceField)

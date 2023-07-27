@@ -3,7 +3,7 @@
 
 import UIKit
 
-class SwitchCell: UITableViewCell {
+public class SwitchCell: UITableViewCell {
     var message: String {
         get { return textLabel?.text ?? "" }
         set(value) { textLabel?.text = value }

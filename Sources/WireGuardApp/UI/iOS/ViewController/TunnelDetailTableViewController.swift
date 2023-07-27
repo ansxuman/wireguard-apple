@@ -3,7 +3,7 @@
 
 import UIKit
 
-class TunnelDetailTableViewController: UITableViewController {
+public class TunnelDetailTableViewController: UITableViewController {
 
     private enum Section {
         case status

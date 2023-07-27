@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class Application: NSApplication {
+public class Application: NSApplication {
 
     private var appDelegate: AppDelegate? // swiftlint:disable:this weak_delegate
 

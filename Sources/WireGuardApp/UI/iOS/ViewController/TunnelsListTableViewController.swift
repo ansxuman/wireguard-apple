@@ -5,7 +5,7 @@ import UIKit
 import MobileCoreServices
 import UserNotifications
 
-class TunnelsListTableViewController: UIViewController {
+public class TunnelsListTableViewController: UIViewController {
 
     var tunnelsManager: TunnelsManager?
 

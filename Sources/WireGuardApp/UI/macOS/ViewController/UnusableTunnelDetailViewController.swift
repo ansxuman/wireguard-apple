@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class UnusableTunnelDetailViewController: NSViewController {
+public class UnusableTunnelDetailViewController: NSViewController {
 
     var onButtonClicked: (() -> Void)?
 

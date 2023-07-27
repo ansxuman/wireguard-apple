@@ -4,7 +4,7 @@
 import UIKit
 import os.log
 
-class SettingsTableViewController: UITableViewController {
+public class SettingsTableViewController: UITableViewController {
 
     enum SettingsFields {
         case iosAppVersion

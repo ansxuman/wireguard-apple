@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class DeleteTunnelsConfirmationAlert: NSAlert {
+public class DeleteTunnelsConfirmationAlert: NSAlert {
     var alertDeleteButton: NSButton?
     var alertCancelButton: NSButton?
 

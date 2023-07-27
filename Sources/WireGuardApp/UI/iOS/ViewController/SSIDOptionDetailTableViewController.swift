@@ -3,7 +3,7 @@
 
 import UIKit
 
-class SSIDOptionDetailTableViewController: UITableViewController {
+public class SSIDOptionDetailTableViewController: UITableViewController {
 
     let selectedSSIDs: [String]
 

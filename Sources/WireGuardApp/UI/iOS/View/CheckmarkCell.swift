@@ -3,7 +3,7 @@
 
 import UIKit
 
-class CheckmarkCell: UITableViewCell {
+public class CheckmarkCell: UITableViewCell {
     var message: String {
         get { return textLabel?.text ?? "" }
         set(value) { textLabel!.text = value }

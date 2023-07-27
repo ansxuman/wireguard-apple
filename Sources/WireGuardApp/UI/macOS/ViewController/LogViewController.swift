@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class LogViewController: NSViewController {
+public class LogViewController: NSViewController {
 
     enum LogColumn: String {
         case time = "Time"

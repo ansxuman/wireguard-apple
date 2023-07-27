@@ -3,7 +3,7 @@
 
 import UIKit
 
-class KeyValueCell: UITableViewCell {
+public class KeyValueCell: UITableViewCell {
 
     let keyLabel: UILabel = {
         let keyLabel = UILabel()
@@ -217,7 +217,7 @@ extension KeyValueCell: UITextFieldDelegate {
 
 }
 
-class KeyValueCellTextField: UITextField {
+public class KeyValueCellTextField: UITextField {
     override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         // UIKit renders the placeholder label 0.5pt higher
         return super.placeholderRect(forBounds: bounds).integral.offsetBy(dx: 0, dy: -0.5)

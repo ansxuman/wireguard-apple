@@ -3,7 +3,7 @@
 
 import Foundation
 
-class TunnelViewModel {
+public class TunnelViewModel {
 
     enum InterfaceField: CaseIterable {
         case name
@@ -84,7 +84,7 @@ class TunnelViewModel {
         var peersInsertedIndices: [Int]
     }
 
-    class InterfaceData {
+    public class InterfaceData {
         var scratchpad = [InterfaceField: String]()
         var fieldsWithError = Set<InterfaceField>()
         var validatedConfiguration: InterfaceConfiguration?
@@ -249,7 +249,7 @@ class TunnelViewModel {
         }
     }
 
-    class PeerData {
+    public class PeerData {
         var index: Int
         var scratchpad = [PeerField: String]()
         var fieldsWithError = Set<PeerField>()

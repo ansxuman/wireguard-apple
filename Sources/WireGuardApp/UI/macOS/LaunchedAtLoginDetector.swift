@@ -3,10 +3,10 @@
 
 import Cocoa
 
-class LaunchedAtLoginDetector {
+public class LaunchedAtLoginDetector {
     static func isLaunchedAtLogin(openAppleEvent: NSAppleEventDescriptor) -> Bool {
         let now = clock_gettime_nsec_np(CLOCK_UPTIME_RAW)
-        guard openAppleEvent.eventClass == kCoreEventClass && openAppleEvent.eventID == kAEOpenApplication else { return false }
+        guard openAppleEvent.eventClass == kCoreEventpublic class && openAppleEvent.eventID == kAEOpenApplication else { return false }
         guard let url = FileManager.loginHelperTimestampURL else { return false }
         guard let data = try? Data(contentsOf: url) else { return false }
         _ = FileManager.deleteFile(at: url)

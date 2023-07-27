@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class ButtonRow: NSView {
+public class ButtonRow: NSView {
     let button: NSButton = {
         let button = NSButton()
         button.title = ""

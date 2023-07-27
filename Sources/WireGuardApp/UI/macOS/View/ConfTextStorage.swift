@@ -5,7 +5,7 @@ import Cocoa
 
 private let fontSize: CGFloat = 15
 
-class ConfTextStorage: NSTextStorage {
+public class ConfTextStorage: NSTextStorage {
     let defaultFont = NSFontManager.shared.convertWeight(true, of: NSFont.systemFont(ofSize: fontSize))
     private let boldFont = NSFont.boldSystemFont(ofSize: fontSize)
     private lazy var italicFont = NSFontManager.shared.convert(defaultFont, toHaveTrait: .italicFontMask)

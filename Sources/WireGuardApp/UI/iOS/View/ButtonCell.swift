@@ -3,7 +3,7 @@
 
 import UIKit
 
-class ButtonCell: UITableViewCell {
+public class ButtonCell: UITableViewCell {
     var buttonText: String {
         get { return button.title(for: .normal) ?? "" }
         set(value) { button.setTitle(value, for: .normal) }

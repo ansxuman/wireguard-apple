@@ -8,7 +8,7 @@ protocol QRScanViewControllerDelegate: AnyObject {
     func addScannedQRCode(tunnelConfiguration: TunnelConfiguration, qrScanViewController: QRScanViewController, completionHandler: (() -> Void)?)
 }
 
-class QRScanViewController: UIViewController {
+public class QRScanViewController: UIViewController {
     weak var delegate: QRScanViewControllerDelegate?
     var captureSession: AVCaptureSession? = AVCaptureSession()
     let metadataOutput = AVCaptureMetadataOutput()

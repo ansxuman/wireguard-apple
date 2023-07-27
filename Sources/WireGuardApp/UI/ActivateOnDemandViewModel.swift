@@ -3,7 +3,7 @@
 
 import Foundation
 
-class ActivateOnDemandViewModel {
+public class ActivateOnDemandViewModel {
     enum OnDemandField {
         case onDemand
         case nonWiFiInterface

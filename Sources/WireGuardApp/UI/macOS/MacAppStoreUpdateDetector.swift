@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class MacAppStoreUpdateDetector {
+public class MacAppStoreUpdateDetector {
     static func isUpdatingFromMacAppStore(quitAppleEvent: NSAppleEventDescriptor) -> Bool {
         guard isQuitEvent(quitAppleEvent) else { return false }
         guard let senderPIDDescriptor = quitAppleEvent.attributeDescriptor(forKeyword: keySenderPIDAttr) else { return false }

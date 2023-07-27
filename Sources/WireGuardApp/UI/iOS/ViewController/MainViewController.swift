@@ -3,7 +3,7 @@
 
 import UIKit
 
-class MainViewController: UISplitViewController {
+public class MainViewController: UISplitViewController {
 
     var tunnelsManager: TunnelsManager?
     var onTunnelsManagerReady: ((TunnelsManager) -> Void)?

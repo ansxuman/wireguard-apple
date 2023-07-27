@@ -3,7 +3,7 @@
 
 import Cocoa
 
-class ErrorPresenter: ErrorPresenterProtocol {
+public class ErrorPresenter: ErrorPresenterProtocol {
     static func showErrorAlert(title: String, message: String, from sourceVC: AnyObject?, onPresented: (() -> Void)?, onDismissal: (() -> Void)?) {
         let alert = NSAlert()
         alert.messageText = title

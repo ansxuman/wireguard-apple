@@ -3,7 +3,7 @@
 
 import Foundation
 
-public class LogViewHelper {
+public public class LogViewHelper {
     var log: OpaquePointer
     var cursor: UInt32 = UINT32_MAX
     static let formatOptions: ISO8601DateFormatter.Options = [
@@ -21,7 +21,7 @@ public class LogViewHelper {
         }
     }
 
-    class LogEntries {
+    public class LogEntries {
         var entries: [LogEntry] = []
     }
 

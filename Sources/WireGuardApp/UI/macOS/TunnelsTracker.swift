@@ -8,7 +8,7 @@ import Cocoa
 //   - Status item controller
 //   - Tunnels list view controller in the Manage Tunnels window
 
-class TunnelsTracker {
+public class TunnelsTracker {
 
     weak var statusMenu: StatusMenu? {
         didSet {

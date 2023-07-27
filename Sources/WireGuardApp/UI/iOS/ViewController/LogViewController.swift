@@ -3,7 +3,7 @@
 
 import UIKit
 
-class LogViewController: UIViewController {
+public class LogViewController: UIViewController {
 
     let textView: UITextView = {
         let textView = UITextView()

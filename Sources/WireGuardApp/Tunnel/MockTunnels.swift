@@ -6,7 +6,7 @@ import NetworkExtension
 // Creates mock tunnels for the iOS Simulator.
 
 #if targetEnvironment(simulator)
-class MockTunnels {
+public class MockTunnels {
     static let tunnelNames = [
         "demo",
         "edgesecurity",

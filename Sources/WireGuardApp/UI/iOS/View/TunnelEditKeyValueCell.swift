@@ -3,7 +3,7 @@
 
 import UIKit
 
-class TunnelEditKeyValueCell: KeyValueCell {
+public class TunnelEditKeyValueCell: KeyValueCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -24,7 +24,7 @@ class TunnelEditKeyValueCell: KeyValueCell {
 
 }
 
-class TunnelEditEditableKeyValueCell: TunnelEditKeyValueCell {
+public class TunnelEditEditableKeyValueCell: TunnelEditKeyValueCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

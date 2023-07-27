@@ -3,7 +3,7 @@
 
 import UIKit
 
-class TunnelListCell: UITableViewCell {
+public class TunnelListCell: UITableViewCell {
     var tunnel: TunnelContainer? {
         didSet {
             // Bind to the tunnel's name

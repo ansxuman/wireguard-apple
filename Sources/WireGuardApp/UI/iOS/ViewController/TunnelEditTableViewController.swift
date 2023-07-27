@@ -8,7 +8,7 @@ protocol TunnelEditTableViewControllerDelegate: AnyObject {
     func tunnelEditingCancelled()
 }
 
-class TunnelEditTableViewController: UITableViewController {
+public class TunnelEditTableViewController: UITableViewController {
     private enum Section {
         case interface
         case peer(_ peer: TunnelViewModel.PeerData)

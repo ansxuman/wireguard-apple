@@ -3,7 +3,7 @@
 
 import UIKit
 
-class BorderedTextButton: UIView {
+public class BorderedTextButton: UIView {
     let button: UIButton = {
         let button = UIButton(type: .system)
         button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .body)

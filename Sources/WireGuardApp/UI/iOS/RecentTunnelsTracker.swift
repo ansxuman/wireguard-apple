@@ -3,7 +3,7 @@
 
 import Foundation
 
-class RecentTunnelsTracker {
+public class RecentTunnelsTracker {
 
     private static let keyRecentlyActivatedTunnelNames = "recentlyActivatedTunnelNames"
     private static let maxNumberOfTunnels = 10
